@@ -111,6 +111,15 @@
             align-self: center;
             max-height: 140px;
         }
+        .c2-first-row {
+            grid-column: 1 / 5;
+        }
+
+        .grid-button {
+            padding: 6px 12px;
+            background-color: #CCC;
+            float: right;
+        }
     </style>
 </head>
 
@@ -130,7 +139,10 @@
             </ul>
         </div>
         <div class="c2">
-            <h2 class="txt-center h2-content">Recent Products</h2>
+            <div class="c2-first-row">
+                <a href="./gallery-table.html" class="grid-button">Grid View</a>
+                <h2 class="txt-center h2-content">Gallery</h2>
+            </div>
             <img class="box-shadow" src="./img/1.jpg">
             <img class="box-shadow" src="./img/2.jpg">
             <img class="box-shadow" src="./img/3.jpg">
